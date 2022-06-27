@@ -1,0 +1,16 @@
+<!-- messages for success/error -->
+<app-messages></app-messages>
+<div>
+    <div *ngIf="showPersons; else noPersonsBlock">
+        <h4>Showing {{personsList.length}} Records</h4>
+        
+        <div class="card-container">
+            <ng-container *ngFor="let person of personsList; let i = index">
+                <app-person-card [person]="person" (deletePerson)="deletePerson($event)"></app-person-card>
+            </ng-container>
+        </div>
+    </div>
+    <ng-template #noPersonsBlock>
+        <h4>There are no persons available to display</h4>
+    </ng-template>
+</div>

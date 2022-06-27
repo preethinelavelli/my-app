@@ -1,0 +1,13 @@
+<div class="ngb-toasts">
+    <ngb-toast
+        *ngFor="let message of messages"
+        [autohide]="true"
+        [class]="message.type"
+        [delay]="5000"
+        (hidden)="remove(message)"
+    >
+        <div>{{ message.text }}</div>
+        <div class="spacer"></div>
+        <button (click)="remove(message)" class="pl-3 btn btn-icon"><i class="fa fa-times"></i></button>
+    </ngb-toast>
+</div>

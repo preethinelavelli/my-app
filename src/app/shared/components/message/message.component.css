@@ -1,0 +1,13 @@
+.ngb-toasts {
+    top: 70px !important;
+    right: 10px !important;
+}
+
+.success, .error, .ngb-toasts .fa {
+    color: white !important;
+}
+
+::ng-deep .toast-body {
+    display: flex !important;
+    align-items: center !important;
+}

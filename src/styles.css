@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+:host {
+    font-size: 14px;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 8px 0;
+}
+p {
+    margin: 0;
+}
+
+.font-bold::before {
+    font-weight: 900;
+}
+
+.font-regular::before {
+    font-weight: 400;
+}
+
+.spacer {
+    flex: 1;
+}

@@ -1,0 +1,13 @@
+<div class="card">
+    <div class="card-header font-bold">
+        <i class="fa fa-user"></i>
+        <h5 title="{{person.name}}" class="card-title m-0 pl-2">{{ person.name }}</h5>
+    </div>
+    <div class="card-body">
+        <div>{{ person.address.suite }}</div>
+        <div>{{ person.address.street }}</div>
+        <div>{{ person.address.city }}</div>
+        <div>{{ person.address.zipcode }}</div>
+    </div>
+    <button class="btn btn-danger float-right mt-3 delete-btn" (click)="delete()"><i class="fa fa-trash pr-1"></i>Delete</button>
+</div>
