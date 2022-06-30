@@ -1,9 +1,11 @@
 .ngb-toasts {
+    position: absolute;
+    z-index: 99;
     top: 70px !important;
     right: 10px !important;
 }
 
-.success, .error, .ngb-toasts .fa {
+.bg-success, .bg-error, .ngb-toasts .fa {
     color: white !important;
 }
 

@@ -4,6 +4,6 @@ export interface Message {
 }
 
 export enum MessageType {
-    Success = 'success',
-    Error = 'error'
+    Success = 'bg-success',
+    Error = 'bg-error'
 }
