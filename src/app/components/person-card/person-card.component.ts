@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Input, Output } from "@angular/core";
-import { MessageType } from 'src/app/shared/models/message';
-import { Person } from 'src/app/shared/models/person';
-import { MessageService } from 'src/app/shared/services/message.service';
+import { MessageType } from '../../shared/models/message';
+import { Person } from '../../shared/models/person';
+import { MessageService } from '../../shared/services/message.service';
 
 @Component({
     selector: 'app-person-card',

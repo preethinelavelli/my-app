@@ -1,8 +1,8 @@
 import { Component, OnInit } from "@angular/core";
-import { Person } from 'src/app/shared/models/person';
-import { PersonsService } from 'src/app/shared/services/persons.service';
-import { MessageService } from 'src/app/shared/services/message.service';
-import { MessageType } from 'src/app/shared/models/message';
+import { Person } from '../../shared/models/person';
+import { PersonsService } from '../../shared/services/persons.service';
+import { MessageService } from '../../shared/services/message.service';
+import { MessageType } from '../../shared/models/message';
 
 @Component({
     selector: 'app-dashboard',
